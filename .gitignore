@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Cache & Temp
+.cache/
+*.cache
+/tmp/
+*.tmp
+
+# Reports (generated)
+reports/*.html
+reports/*.md
+reports/*.pdf
+
+# Workflow output
+scripts/workflow_*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+
+# Memory
+memory/
+2026-*-*.md
+
+# Sensitive
+.credentials/
+*apiKey*
+*password*
+*token*
